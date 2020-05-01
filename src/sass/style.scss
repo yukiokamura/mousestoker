@@ -1,0 +1,15 @@
+@import "common/reset.scss";
+@import "common/common";
+
+html,
+body {
+  background: #2e2e2e;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  .canvas,
+  canvas {
+    width: 100%;
+    height: 100%;
+  }
+}
